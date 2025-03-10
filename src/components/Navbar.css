@@ -52,10 +52,14 @@ nav ul li a:hover {
   transform: translateY(-3px);
 }
 
-/* Adjustments for mobile view while keeping horizontal layout */
+/* Adjustments for mobile view */
 @media (max-width: 768px) {
   header {
     padding: 10px 20px;
+    justify-content: center;  /* Center the entire header content */
+  }
+  .logo {
+    margin-right: 20px; /* Add some spacing between logo and nav */
   }
   .logo img {
     max-width: 120px;
@@ -63,5 +67,7 @@ nav ul li a:hover {
   nav ul {
     flex-direction: row; /* Keep items in one line */
     gap: 10px;
+    justify-content: center;
+    align-items: center;
   }
 }
