@@ -1,8 +1,6 @@
 import React from 'react';
 import './Team.css';
 
-
-
 const Team = () => {
   return (
     <main>
@@ -28,16 +26,12 @@ const Team = () => {
                 alt="Atul Raman Headshot" 
                 className="team-photo" 
               />
-  
               <h2>Atul Raman</h2>
               <h3>Cofounder/CTO</h3>
               <p>
                 Sophomore majoring in Computer Science with a focus in cybersecurity
               </p>
             </div>
-
-
-
           </div>
         </div>
       </section>

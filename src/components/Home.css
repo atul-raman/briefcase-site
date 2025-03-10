@@ -29,10 +29,12 @@
   color: #1b4332;
 }
 
-.hero-content p {
+/* Fixed container for typewriter text to avoid layout shift */
+.typewriter-container {
   font-size: 18px;
   margin-bottom: 35px;
   color: #2d6a4f;
+  min-height: 80px; /* Adjust based on your expected text height */
 }
 
 .email-form {
@@ -93,16 +95,13 @@
     max-width: 90%;
   }
   
+  /* On mobile, keep the email form in one row with equal widths */
   .email-form {
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .email-form input[type="email"],
   .email-form button {
-    width: 100%;
-  }
-  
-  .email-form input[type="email"] {
-    margin-bottom: 10px;
+    width: 50%;
   }
 }

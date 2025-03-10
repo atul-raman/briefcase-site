@@ -17,7 +17,12 @@ const Navbar = () => {
             <Link to="/team" className="nav-link">Team</Link>
           </li>
           <li>
-            <a href="mailto:araman31@asu.edu?subject=Inquiry&body=Hi%20Briefcase%20Team," className="cta">Contact</a>
+            <a
+              href="mailto:araman31@asu.edu?subject=Inquiry&body=Hi%20Briefcase%20Team,"
+              className="cta"
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </nav>

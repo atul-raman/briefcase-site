@@ -19,7 +19,8 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <h1>Connecting Lawyers and Clients Seamlessly.</h1>
-          <p>
+          {/* Wrap the typewriter text in a container with fixed height */}
+          <div className="typewriter-container">
             <Typewriter
               words={[
                 'Find trusted legal professionals or new clients in one easy-to-use platform designed to streamline your experience.'
@@ -31,7 +32,7 @@ const Home = () => {
               deleteSpeed={50}
               delaySpeed={1000}
             />
-          </p>
+          </div>
           <form className="email-form" onSubmit={handleSubmit}>
             <input
               type="email"
