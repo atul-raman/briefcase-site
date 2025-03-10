@@ -18,7 +18,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="mailto:araman31@asu.edu?subject=Inquiry&body=Hi%20Briefcase%20Team,"
+              href="mailto:briefcasemj@gmail.com?subject=Inquiry&body=Hi%20Briefcase%20Team,"
               className="cta"
             >
               Contact
