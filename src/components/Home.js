@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Home.css'; 
+import './Home.css';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
   const [showSuccess, setShowSuccess] = useState(false);
@@ -19,10 +20,25 @@ const Home = () => {
         <div className="hero-content">
           <h1>Connecting Lawyers and Clients Seamlessly.</h1>
           <p>
-            Find trusted legal professionals or new clients in one easy-to-use platform designed to streamline your experience.
+            <Typewriter
+              words={[
+                'Find trusted legal professionals or new clients in one easy-to-use platform designed to streamline your experience.'
+              ]}
+              loop={1}
+              cursor
+              cursorStyle="|"
+              typeSpeed={50}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
           </p>
           <form className="email-form" onSubmit={handleSubmit}>
-            <input type="email" name="email" placeholder="Enter your email to stay updated" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email to stay updated"
+              required
+            />
             <button type="submit">Notify Me</button>
           </form>
           {showSuccess && (
