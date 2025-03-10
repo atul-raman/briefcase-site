@@ -18,7 +18,10 @@ const Home = () => {
     <main>
       <section className="hero">
         <div className="hero-content">
-          <h1>Connecting Lawyers and Clients Seamlessly.</h1>
+        <h1>
+  Connecting Lawyers and Clients{' '}
+  <span className="animate-seamlessly">Seamlessly.</span>
+</h1>
           {/* Wrap the typewriter text in a container with fixed height */}
           <div className="typewriter-container">
             <Typewriter
