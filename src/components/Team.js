@@ -17,7 +17,7 @@ const Team = () => {
               <h2>Manasvi Jagtap</h2>
               <h3>Founder/CEO</h3>
               <p>
-                Sophomore double majoring in finance and business law
+                Junior double majoring in finance and business law
               </p>
             </div>
             <div className="team-member">
@@ -29,7 +29,7 @@ const Team = () => {
               <h2>Atul Raman</h2>
               <h3>Cofounder/CTO</h3>
               <p>
-                Sophomore majoring in Computer Science with a focus in cybersecurity
+                Junior majoring in Computer Science with a focus in cybersecurity
               </p>
             </div>
           </div>
